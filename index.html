@@ -11,16 +11,10 @@
 <body>
     <div class="container">
         <h1>To-Do-List</h1>
-        <div class="main_list">
-            <p>Item added<input type='checkbox'></p>
-            <p>Item added<input type='checkbox'></p>
-            <p>Item added<input type='checkbox'></p>
-            <p>Item added<input type='checkbox'></p>
-            <p>Item added<input type='checkbox'></p>
-        </div>
+        <div class="main_list"></div>
         <div class="btns">
             <button id="add" onclick="addButton()">+</button>
-            <button id="remove" onmouseenter="removeBtn()" onclick="removeBtn()">x</button>
+            <button id="remove" onmouseenter="removeBtnHover()" onclick="removeBtn()">x</button>
         </div>
     </div>
     <script src="index.js"></script>
