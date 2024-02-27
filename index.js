@@ -44,3 +44,10 @@ function remove2() {
         x.parentElement.remove();
     }
 }
+
+(function contact () {
+    let contact = document.createElement("div");
+    contact.setAttribute("id", "contact");
+    contact.innerHTML = "Connect &nbsp;: <br>&nbsp;<a style='text-decoration: none; color: white;' href='https://www.facebook.com/nissan.gautam.507' target='_blank'>Facebook</a> &nbsp;&nbsp;&nbsp; <a style='text-decoration: none; color: white;' href='https://github.com/nxhettry' target='_blank'>Github</a>"
+    document.querySelector(".container").appendChild(contact);
+})();
